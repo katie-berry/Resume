@@ -1,23 +1,101 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<style>
+			html {
+				background-color: #e6effc;
+				margin: 20px;
+				}
+			
+			h1 {
+				color: black;
+				font-family: "georgia", serif;
+				text-transform: uppercase;
+				}
+
+			h1::first-letter {
+				font-size: 160%;
+				}
+
+			h2 {
+				color: black;
+				font-family: "georgia", serif;
+				text-decoration: overline;
+				}
+
+			h3 {
+				color: black;
+				font-family: "georgia", serif;
+				}
+
+			h4 {
+				color: black;
+				font-family: "georgia", serif;
+				font-size: medium;
+				}
+
+			p {
+				font-family: "verdana", sans-serif;
+				font-size: medium;
+				color: black;
+				line-height: 150%;
+				margin-left: 50px;
+				}
+
+			ul {
+				font-family: "verdana", sans-serif;
+				font-size: medium;
+				color: black;
+				padding: 10px;
+				list-style-image: url(check.png);
+				}
+
+			ul li {
+				padding: 5px;
+				margin-left: 40px;
+				}
+
+			a:link, a:visited {
+				font-family: "verdana", sans-serif;
+				font-size: medium;
+				color: blue;
+				}
+
+			a:hover, a:active, a:focus {
+				font-family: "verdana", sans-serif;
+				font-size: medium;
+				color: black;
+				}
+
+			img {
+				padding: 20px;
+				}
+
+			#details { 
+				background-color: rgb(250, 247, 240);
+				padding: 10px;
+			 	}
+
+
+		</style>
 		<title>Katie Berry's Resume</title>
 		<meta name="description" content="Katie Berry's Full Resume">
 		<meta name="author" content="Katie Berry">
-		<meta charset="UTF-8">
 	</head>
 
 <body>
 <h1>Katie Berry</h1>
-<h2>Contact</h2>
-<p>Katie Berry<br>
+
+<img src="headshot.jpg" alt="Katie Berry Headshot">
+
+<div id="details">
+	<h2>Contact</h2>
+	<p>Katie Berry<br>
 	Harrisonburg, Va<br>
 	berry2ke@dukes.jmu.edu<br>
 	<a href="https://www.linkedin.com/in/katie-berry-4202bb293/" target="_blank">LinkedIn</a><br>
 	<a href="https://www.instagram.com/" target="_blank">Instagram</a>
-</p>
-
-<img src="headshot.jpg" alt="Katie Berry Headshot">
+	</p>
 
 <h2>Skills</h2>
 <ul>
@@ -36,15 +114,14 @@
 
 <h2>Experience</h2>
 	<h3>Related Experience</h3>
-		<h4>Completed Courses: </h4>
-			<p>SMAD 201- Foundations of Visual Communication Design</p>
+			<h4>SMAD 201- Foundations of Visual Communication Design</h4>
 			<ul>
 				<li>Color Theory</li>
 				<li>Adobe Creative Cloud</li>
 				<li>Logos and Branding</li>
 			</ul>
 
-			<p>SMAD 202- Foundations of Audio-Visual Storytelling</p>
+			<h4>SMAD 202- Foundations of Audio-Visual Storytelling</h4>
 			<ul>
 				<li>Storyboarding</li>
 				<li>Recording Video</li>
@@ -52,28 +129,27 @@
 				<li>Editing in iMovie</li>
 			</ul>
 			
-			<p>SMAD 203- Foundations of User Experience Design</p>
+			<h4>SMAD 203- Foundations of User Experience Design</h4>
 			<ul>
 				<li>User Experience</li>
 				<li>User Interaction</li>
 				<li>HTML and CSS</li>
 				<li>Information Architecture</li>
 			</ul>
-		<h4>Current Courses:</h4>
-			SMAD 307- Interactive Design 1
+			<h4>SMAD 307- Interactive Design 1</h4>
 			<ul>
 				<li>Yet to be seen</li>
 			</ul>
 
 	<h3>Unrelated Experience</h3>
-		<p>Babysitter for 2 elementary aged boys: May 2023- August 2023</p>
+		<h4>Babysitter for 2 elementary aged boys: May 2023- August 2023</h4>
 			<ul>
 				<li>Made food for the kids</li>
 				<li>Helped clean the house</li>
 				<li>Played games and read with the boys</li>
 				<li>Drove the boys to different activities</li>
 			</ul>
-		Front End Employee at Social Burger in Vienna, Va: January 2020-August 2022
+		<h4>Front End Employee at Social Burger in Vienna, Va: January 2020-August 2022</h4>
 			<ul>
 				<li>Customer Service</li>
 				<li>Bagging to-go orders</li>
@@ -82,7 +158,7 @@
 			</ul>
 
 <h2>Volunteering</h2>
-	<p>Youth Group Leader and Christ Church Vienna: 2019-2022</p>
+	<h4>Youth Group Leader and Christ Church Vienna: 2019-2022</h4>
 		<ul>
 			<li>Leading bible studies</li>
 			<li>Leading group games</li>
@@ -97,6 +173,8 @@
 		<li>Walking</li>
 		<li>Using my Typewriter</li>
 	</ul>
+
+</div>
 
 </body>
 </html>
